@@ -22,7 +22,7 @@ public class WikimediaChangesProducer {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    void sendMessage() throws InterruptedException {
+   public void sendMessage() throws InterruptedException {
 
         String topic = "kafka-topic-wikimedia-recent-change";
 
